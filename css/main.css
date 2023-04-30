@@ -1,0 +1,310 @@
+* {
+  font-family: Lato, Open Sans, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  z-index: 5;
+  padding: 30px 24px;
+  margin-bottom: 100px;
+  background-color: transparent;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+  position: fixed;
+}
+.header_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header_menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.header_item {
+  margin-left: 35px;
+}
+.header_item a {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #383D3B;
+}
+.header_right a {
+  padding: 14px 10px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #383D3B;
+  background-color: #D9D9D9;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.header_right a:last-child {
+  background-color: #C3423F;
+  padding: 14px 10px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+.header_scrolled {
+  background-color: #CCA58B;
+}
+
+.main_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+  margin-bottom: 100px;
+}
+.main_text h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 35px;
+}
+.main_text span {
+  color: #C3423F;
+}
+.main_text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: #000000;
+  margin-bottom: 35px;
+}
+.main_item {
+  margin-right: 33px;
+  padding: 14px 35px;
+  background: #D9D9D9;
+  color: #000;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+}
+.main_item:last-child {
+  background: #C3423F;
+  color: #fff;
+}
+
+.testimonials {
+  background-color: #ccc;
+}
+.testimonials_block {
+  text-align: center;
+}
+.testimonials_block h1 {
+  margin-top: 63px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: #fff;
+  padding-top: 63px;
+  margin-bottom: 30px;
+}
+.testimonials_block p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+.testimonials_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 74px;
+}
+
+.footer {
+  text-align: center;
+  padding: 100px 150px;
+  background: #C3423F;
+}
+.footer_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer_img {
+  margin-left: 30px;
+  margin-bottom: 25px;
+}
+.footer_text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.signin_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 200px;
+  margin-bottom: 100px;
+}
+.signin_text form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.signin_text h1 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #383D3B;
+  margin-bottom: 22px;
+}
+.signin_text p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 31px;
+  color: #383D3B;
+  margin-bottom: 40px;
+}
+.signin_button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 7px 100px;
+  background: #383D3B;
+  border-radius: 10px;
+}
+.signin input {
+  border: none;
+  padding: 20px;
+  margin-bottom: 35px;
+}
+.signin input text {
+  border: none;
+}
+
+.grid_block {
+  margin-bottom: 400px;
+  padding-top: 200px;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+.grid_item {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+.grid_counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.grid_input {
+  width: 50px;
+  text-align: center;
+  margin: 0 10px;
+}
