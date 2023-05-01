@@ -8,46 +8,55 @@ window.addEventListener('scroll', function() {
   }
 });
 
-
-const plusBtns = document.querySelectorAll('.grid_plus');
-const minusBtns = document.querySelectorAll('.grid_minus');
-
-// Add click event listeners to all plus and minus buttons
-for (let i = 0; i < plusBtns.length; i++) {
-  plusBtns[i].addEventListener('click', increment);
-  minusBtns[i].addEventListener('click', decrement);
-}
-
-// Function to increment the value of the input field
-function increment(event) {
-  // Get the counter div element
-  const counter = event.target.parentNode;
-  // Get the input field element inside the counter div
-  const inputField = counter.querySelector('.grid_counter-input');
-  // Get the current value of the input field
-  let currentValue = parseInt(inputField.value);
-  // Increment the value by 1
-  currentValue++;
-  // Set the new value of the input field
-  inputField.value = currentValue;
-}
-
-// Function to decrement the value of the input field
-function decrement(event) {
-  // Get the counter div element
-  const counter = event.target.parentNode;
-  // Get the input field element inside the counter div
-  const inputField = counter.querySelector('.grid_counter-input');
-  // Get the current value of the input field
-  let currentValue = parseInt(inputField.value);
-  // Decrement the value by 1, but don't go below 1
-  if (currentValue > 1) {
-    currentValue--;
-  }
-  // Set the new value of the input field
-  inputField.value = currentValue;
-}
-
 document.getElementById("add-to-cart").addEventListener("click", function() {
   // Add code here to add the item to the cart
 });
+
+// Get all the plus and minus buttons
+const minusButtons = document.querySelectorAll(".grid_minus");
+const plusButtons = document.querySelectorAll(".grid_plus");
+
+// Add click event listeners to each button
+minusButtons.forEach((button) => {
+  button.addEventListener("click", decreaseQuantity);
+});
+
+plusButtons.forEach((button) => {
+  button.addEventListener("click", increaseQuantity);
+});
+
+// Function to decrease the quantity
+function decreaseQuantity(event) {
+  const quantityElement = event.target.nextElementSibling;
+  let quantity = parseInt(quantityElement.innerText);
+
+  if (quantity > 0) {
+    quantity--;
+    quantityElement.innerText = quantity;
+    updateTotal();
+  }
+}
+
+// Function to increase the quantity
+function increaseQuantity(event) {
+  const quantityElement = event.target.previousElementSibling;
+  let quantity = parseInt(quantityElement.innerText);
+
+  quantity++;
+  quantityElement.innerText = quantity;
+  updateTotal();
+}
+
+function updateTotal() {
+  const quantityElements = document.querySelectorAll(".grid_number");
+  const price = 5; // Assuming a price of $10 per item
+  let total = 0;
+
+  quantityElements.forEach((element) => {
+    const quantity = parseInt(element.innerText);
+    total += quantity * price;
+  });
+
+  const totalElement = document.querySelector(".total");
+  totalElement.innerText = `Total: $${total}`;
+}
