@@ -280,7 +280,6 @@ button {
 }
 
 .grid_block {
-  margin-bottom: 400px;
   padding-top: 200px;
   display: -ms-grid;
   display: grid;
@@ -303,8 +302,33 @@ button {
       -ms-flex-pack: center;
           justify-content: center;
 }
+.grid_counter span i {
+  pointer-events: none;
+}
 .grid_input {
   width: 50px;
   text-align: center;
   margin: 0 10px;
+}
+.grid_number {
+  margin: 20px 20px;
+}
+
+.price {
+  padding: 20px 20px;
+  background: #ccc;
+  margin-bottom: 100px;
+}
+.price_block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 100px;
+  margin-left: 100px;
 }
