@@ -1,5 +1,3 @@
-Sure, I can help you write a README file document for your Pizza Project. Here's a template that you can use:
-
 # Pizza Project
 
 This is a web application for ordering pizzas. It consists of a backend and a frontend that are developed separately and communicate with each other through REST API.
