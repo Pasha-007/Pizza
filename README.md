@@ -1,6 +1,6 @@
 # Pizza Project
 
-<img width="1440" alt="Screenshot 2023-05-06 at 14 03 50" src="https://user-images.githubusercontent.com/103258353/236611719-ac78e68a-3b00-4afc-8c73-cfd15a4b83ba.png">
+<img width="826" alt="Screenshot 2023-05-06 at 14 19 59" src="https://user-images.githubusercontent.com/103258353/236612440-dec0b1c3-6d78-47f1-8a7d-c956e1db3a6c.png">
 
 <img width="1440" alt="Screenshot 2023-05-06 at 14 03 22" src="https://user-images.githubusercontent.com/103258353/236611730-b00b7200-d08f-4b14-a4c9-5f61b1889a51.png">
 
