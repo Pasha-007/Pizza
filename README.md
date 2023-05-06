@@ -1,5 +1,14 @@
 # Pizza Project
 
+<img width="1440" alt="Screenshot 2023-05-06 at 14 03 50" src="https://user-images.githubusercontent.com/103258353/236611719-ac78e68a-3b00-4afc-8c73-cfd15a4b83ba.png">
+
+<img width="1440" alt="Screenshot 2023-05-06 at 14 03 22" src="https://user-images.githubusercontent.com/103258353/236611730-b00b7200-d08f-4b14-a4c9-5f61b1889a51.png">
+
+<img width="1439" alt="Screenshot 2023-05-06 at 14 02 55" src="https://user-images.githubusercontent.com/103258353/236611731-7413541d-f8bc-48b2-beec-3185c531417a.png">
+
+<img width="1436" alt="Screenshot 2023-05-06 at 14 02 45" src="https://user-images.githubusercontent.com/103258353/236611733-4de26de6-cabc-4f06-839e-bf7c1a3d07a0.png">
+
+
 This is a web application for ordering pizzas. It consists of a backend and a frontend that are developed separately and communicate with each other through REST API.
 
 ## Backend
