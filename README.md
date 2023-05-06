@@ -8,6 +8,8 @@
 
 <img width="1436" alt="Screenshot 2023-05-06 at 14 02 45" src="https://user-images.githubusercontent.com/103258353/236611733-4de26de6-cabc-4f06-839e-bf7c1a3d07a0.png">
 
+<img width="1440" alt="Screenshot 2023-05-06 at 14 09 16" src="https://user-images.githubusercontent.com/103258353/236611979-7828b9a7-c3d5-4607-81ae-98e07fe7d2e7.png">
+
 
 This is a web application for ordering pizzas. It consists of a backend and a frontend that are developed separately and communicate with each other through REST API.
 
